@@ -1,11 +1,11 @@
-<!-- 1. Load global dependencies -->
+1. Include global dependencies for Angular2
 
 <script src="node_modules/core-js/client/shim.min.js"></script>
 <script src="node_modules/zone.js/dist/zone.js"></script>
 <script src="node_modules/reflect-metadata/Reflect.js"></script>
 <script src="node_modules/rxjs/bundles/Rx.js"></script>
 
-<!-- 2. Load Angular2 libraries -->
+2. Include Angular2
 
 <script src="node_modules/@angular/core/bundles/core.umd.js"></script>
 <script src="node_modules/@angular/common/bundles/common.umd.js"></script>
@@ -14,12 +14,10 @@
 <script src="node_modules/@angular/forms/bundles/forms.umd.js"></script>
 <script src="node_modules/@angular/platform-browser-dynamic/bundles/platform-browser-dynamic.umd.js"></script>
 
-<!-- 3. Load PubNub Javascript SDK -->
+3. Include the lastest version of PubNub's Javascript SDK
 
 <script src="node_modules/pubnub/dist/web/pubnub.js"></script>
 
-<!-- 3. Load PubNub Angular2 SDK -->
+4. Include PubNub's Angular2 SDK
 
 <script src="node_modules/pubnub-angular2/dist/pubnub-angular2.js"></script>
-
-<!-- 4. Load your App libraries -->
