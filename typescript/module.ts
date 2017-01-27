@@ -1,14 +1,13 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { PubNubAngular } from 'pubnub-angular2';
-import { appComponent } from './appComponent';
+import { AppComponent } from './appComponent';
 @NgModule({
     imports:[ BrowserModule ],
-    declarations:[ appComponent ],
+    declarations:[ AppComponent ],
     providers:[ PubNubAngular ],
-    bootstrap:[ appComponent ]
+    bootstrap:[ AppComponent ]
 })
-export class appModule {
-    constructor() {
-    }
+export class AppModule {
+  constructor() {}
 }

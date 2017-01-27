@@ -1,8 +1,8 @@
 (function (app) {
-    app.main_component = ng.core.Component({
-        selector: 'main-component',
+    app.appComponent = ng.core.Component({
+        selector: 'appComponent',
         templateUrl: 'app/template.html',
-        providers: [PubNubAngular]
+        providers: [ PubNubAngular ]
     }).Class({
         constructor: function () {}
     });

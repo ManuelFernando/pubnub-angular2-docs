@@ -6,5 +6,10 @@ import { PubNubAngular } from 'pubnub-angular2';
     providers:[ PubNubAngular ]
 })
 export class AppComponent {
-  constructor() {}
+  constructor(pubnubService: PubNubAngular) {
+    pubnubService.init({
+      publishKey: 'YOUR PUB_KEY',
+      subscribeKey: 'YOUR SUB_KEY'
+    });
+  }
 }
