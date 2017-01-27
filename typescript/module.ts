@@ -1,15 +1,14 @@
 import { NgModule }      from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule }   from '@angular/forms';
 import { PubNubAngular } from 'pubnub-angular2';
-import { MainComponent }  from './main-component';
+import { appComponent }  from './appComponent';
 @NgModule({
-    imports:      [ BrowserModule, FormsModule ],
-    declarations: [ MainComponent ],
+    imports:      [BrowserModule],
+    declarations: [appComponent],
     providers: [ PubNubAngular ],
-    bootstrap:    [ MainComponent ]
+    bootstrap:    [ appComponent ]
 })
-export class MainModule {
+export class appModule {
     constructor(){
     }
 }
