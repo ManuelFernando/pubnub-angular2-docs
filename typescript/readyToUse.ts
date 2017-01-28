@@ -1,24 +1,24 @@
-import {Component} from '@angular/core';
-import {PubNubAngular} from 'pubnub-angular2';
+import { Component } from '@angular/core';
+import { PubNubAngular } from 'pubnub-angular2';
 
 @Component({
-  selector: 'AppComponent',
+  selector: 'appComponent',
   template: '<H1>PubNub Angular2 SDK Demo</H1>'
 })
 
 export class AppComponent {
-  constructor(pubnubService: PubNubAngular) {
-    pubnubService.init({
+  constructor(pubnub: PubNubAngular) {
+    pubnub.init({
       publishKey: 'YOUR PUB_KEY',
       subscribeKey: 'YOUR SUB_KEY'
     });
 
-    pubnubService.getInstance('another').init({
+    pubnub.getInstance('another').init({
       publishKey: 'ANOTHER PUB_KEY',
       subscribeKey: 'ANOTHER SUB_KEY'
     });
 
-    pubnubService.publish({
+    pubnub.publish({
       message: {such: 'Hello!'},
       channel: 'myChannel'
     }, (status, response) => {
@@ -29,7 +29,7 @@ export class AppComponent {
       }
     });
 
-    pubnubService.getInstance("another").grant({
+    pubnub.getInstance("another").grant({
       channels: ['my_channel'],
       authKeys: ['my_authkey'],
       read: true,

@@ -5,8 +5,8 @@
       template: '<H1>PubNub Angular2 SDK Demo</H1>'
     }
   ).Class({
-    constructor: [PubNubAngular, function(pubnubService){
-      pubnubService.init(
+    constructor: [PubNubAngular, function(pubnub){
+      pubnub.init(
         {
           publishKey: 'YOUR PUB_KEY',
           subscribeKey: 'YOUR SUB_KEY'

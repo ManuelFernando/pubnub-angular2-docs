@@ -5,18 +5,18 @@
       template: '<H1>PubNub Angular2 SDK Demo</H1>'
     }
   ).Class({
-    constructor: [PubNubAngular, function(pubnubService){
-      pubnubService.init({
+    constructor: [PubNubAngular, function(pubnub){
+      pubnub.init({
         publishKey: 'YOUR PUB_KEY',
         subscribeKey: 'YOUR SUB_KEY'
       });
 
-      pubnubService.getInstance("another").init({
+      pubnub.getInstance("another").init({
         publishKey: 'ANOTHER PUB_KEY',
         subscribeKey: 'ANOTHER SUB_KEY'
       });
 
-      pubnubService.publish({
+      pubnub.publish({
         message: {such: 'Hello!'},
         channel: 'myChannel'
       }, function (status, response) {
@@ -27,7 +27,7 @@
         }
       });
 
-      pubnubService.getInstance('another').grant({
+      pubnub.getInstance('another').grant({
         channels: ['my_channel'],
         authKeys: ['my_authkey'],
         read: true,
