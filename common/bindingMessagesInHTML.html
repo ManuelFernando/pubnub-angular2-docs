@@ -1,0 +1,3 @@
+<ul *ngFor="let item of PubNub.getMessage('myChannel1')">
+    <li>{{ item.message }}</li>
+</ul>
