@@ -1,11 +1,11 @@
-PubNub.getStatus('myChannel', function(st) {
+pubnub.getStatus('myChannel', function(st) {
     console.log(st);
 });
 
-PubNub.getStatus('myGroup1', function(st) {
+pubnub.getStatus('myGroup1', function(st) {
     console.log(st);
 });
 
-PubNub.getStatus(['myChannel1', 'myChannel2', 'myGroup1'], function(st) {
+pubnub.getStatus(['myChannel1', 'myChannel2', 'myGroup1'], function(st) {
     console.log(st);
 });

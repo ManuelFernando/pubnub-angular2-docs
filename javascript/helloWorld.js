@@ -6,16 +6,16 @@
     "</ul>"
   }).Class({
     constructor: [PubNubAngular, function(pubnub) {
-      this.Channel = 'myChannel';
-      this.PubNub = pubnub;
-      this.PubNub.init({publishKey: 'YOUR PUB_KEY', subscribeKey: 'YOUR SUB_KEY'});
-      this.PubNub.subscribe({channels: [this.Channel], triggerEvents: ['message']});
+      this.channel = 'myChannel';
+      this.pubnub = pubnub;
+      this.pubnub.init({publishKey: 'YOUR PUB_KEY', subscribeKey: 'YOUR SUB_KEY'});
+      this.pubnub.subscribe({channels: [this.channel], triggerEvents: ['message']});
     }],
     ngOnInit: function () {
       var self = this;
       setInterval(function () {
         var hw = 'Hello World, ' + Date.now();
-        self.PubNub.publish({channel: self.Channel, message: hw});
+        self.pubnub.publish({channel: self.channel, message: hw});
       }, 1000);
     }
   });

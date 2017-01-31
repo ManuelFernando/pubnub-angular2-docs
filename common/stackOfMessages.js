@@ -1,5 +1,5 @@
-var myStack1 = PubNub.getMessage('myChannel1');
+var myStack1 = pubnub.getMessage('myChannel1');
 
-var myStack2 = PubNub.getMessage('myGroup1');
+var myStack2 = pubnub.getMessage('myGroup1');
 
-var myStack3 = PubNub.getMessage(['myChannel1', 'myGroup1']);
+var myStack3 = pubnub.getMessage(['myChannel1', 'myGroup1']);

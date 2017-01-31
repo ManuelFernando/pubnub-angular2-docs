@@ -8,18 +8,18 @@ import { PubNubAngular } from 'pubnub-angular2';
   "</ul>"
 })
 export class AppComponent {
-  PubNub: PubNubAngular;
-  Channel: string;
+  pubnub: PubNubAngular;
+  channel: string;
   constructor(pubnub: PubNubAngular) {
-    this.Channel = 'myChannel';
-    this.PubNub = pubnub;
-    this.PubNub.init({publishKey: 'YOUR PUB_KEY', subscribeKey: 'YOUR SUB_KEY'});
-    this.PubNub.subscribe({channels: [this.Channel], triggerEvents: ['message']});
+    this.channel = 'myChannel';
+    this.pubnub = pubnub;
+    this.pubnub.init({publishKey: 'YOUR PUB_KEY', subscribeKey: 'YOUR SUB_KEY'});
+    this.pubnub.subscribe({channels: [this.channel], triggerEvents: ['message']});
   }
   ngOnInit() {
     setInterval(() => {
       let hw = 'Hello World, ' + Date.now();
-      this.PubNub.publish({channel: this.Channel, message: hw});
+      this.pubnub.publish({channel: this.channel, message: hw});
     }, 1000);
   }
 }
