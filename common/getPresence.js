@@ -1,4 +1,4 @@
-pubnub.getPresence('myChannel', function(pse) {
+pubnub.getPresence('myChannel1', function(pse) {
     console.log(pse);
 });
 

@@ -20,7 +20,7 @@ export class AppComponent {
 
     pubnub.publish({
       message: {such: 'Hello!'},
-      channel: 'myChannel'
+      channel: 'myChannel1'
     }, (status, response) => {
       if (status.error) {
         console.log(status);
@@ -30,8 +30,8 @@ export class AppComponent {
     });
 
     pubnub.getInstance("another").grant({
-      channels: ['my_channel'],
-      authKeys: ['my_authkey'],
+      channels: ['myChannel1'],
+      authKeys: ['myAuthkey'],
       read: true,
       write: false
     }, (status) => {

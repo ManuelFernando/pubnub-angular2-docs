@@ -1,4 +1,4 @@
-pubnub.getStatus('myChannel', function(st) {
+pubnub.getStatus('myChannel1', function(st) {
     console.log(st);
 });
 
