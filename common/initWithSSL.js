@@ -1,1 +1,5 @@
-pubnub.init({publishKey: 'YOUR PUB_KEY', subscribeKey: 'YOUR SUB_KEY', ssl: true});
+pubnub.init({
+  subscribeKey: 'YOUR SUB_KEY',
+  publishKey: 'YOUR PUB_KEY',
+  ssl: true
+});

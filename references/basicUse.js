@@ -1,5 +1,4 @@
 pubnub.init({
   subscribeKey: "YOUR SUB_KEY",
-  publishKey: "YOUR PUB_KEY",
-  ssl: true
+  publishKey: "YOUR PUB_KEY"
 });
