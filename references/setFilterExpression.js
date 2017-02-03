@@ -1,0 +1,1 @@
+pubnub.setFilterExpression("such=wow");
