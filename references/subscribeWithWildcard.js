@@ -1,0 +1,1 @@
+pubnub.subscribe({channels: ['ab.*']});
