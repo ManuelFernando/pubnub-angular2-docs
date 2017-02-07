@@ -18,6 +18,9 @@ pubnub.addListener({
         var uuid = p.uuid; // UUIDs of users who are connected with the channel
     },
     status: function(s) {
-        // handle status
+        var affectedChannelGroups = s.affectedChannelGroups;
+        var affectedChannels = s.affectedChannels;
+        var category = s.category;
+        var operation = s.operation;
     }
 });
