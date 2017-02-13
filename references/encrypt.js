@@ -1,1 +1,1 @@
-var data = pubnub.encrypt(data: string, customCipherKey: ?string);
+var result = pubnub.encrypt(data: string, customCipherKey: ?string);

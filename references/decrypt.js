@@ -1,1 +1,1 @@
-var data = pubnub.decrypt(data: Object, customCipherKey: ?string);
+var result = pubnub.decrypt(data: Object, customCipherKey: ?string);
