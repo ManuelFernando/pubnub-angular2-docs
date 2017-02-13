@@ -11,5 +11,5 @@ function (status, response) {
   console.log("listing push channel for device");
   response.channels.forEach( function (channel) {
     console.log(channel);
-  })
+  });
 });
