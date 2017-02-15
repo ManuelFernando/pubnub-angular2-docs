@@ -1,12 +1,12 @@
-pubnub.getPresence('myChannel1', function(pse) {
+pubnub.getPresence('my_channel1', function(pse) {
     console.log(pse);
 });
 
-pubnub.getPresence('myGroup1', function(pse) {
+pubnub.getPresence('my_channelGroup', function(pse) {
     console.log(pse);
 });
 
-pubnub.getPresence(['myChannel1', 'myChannel2', 'myGroup1'], function(pse) {
+pubnub.getPresence(['my_channel1', 'my_channel2', 'my_channelGroup'], function(pse) {
     console.log(pse);
     console.log(pse.subscribedChannel);
 });

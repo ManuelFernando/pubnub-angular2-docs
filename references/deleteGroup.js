@@ -1,5 +1,5 @@
 pubnub.channelGroups.deleteGroup({
-  channelGroup: "myGroup1"
+  channelGroup: "my_channelGroup"
 },
 function (status) {
   if (status.error) {

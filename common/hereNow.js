@@ -1,6 +1,6 @@
 pubnub.hereNow({
-  channels: ["myChannel1"],
-  channelGroups : ["myGroup1"],
+  channels: ["my_channel"],
+  channelGroups : ["my_channelGroup"],
   includeUUIDs: true,
   includeState: true
 },

@@ -1,6 +1,6 @@
 pubnub.setState({
   state: {"Key": "Value"},
-  channels: ["myChannel1"]
+  channels: ["my_channel"]
 },
 function (status, response) {
   // handle status, response

@@ -1,6 +1,6 @@
 pubnub.publish({
   message: {such: 'Hello from the PubNub Angular2 SDK!'},
-  channel: 'myChannel1'
+  channel: 'my_channel'
 },
 function (status, response) {
   if (status.error) {

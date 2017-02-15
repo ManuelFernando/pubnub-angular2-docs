@@ -1,1 +1,1 @@
-pubnub.unsubscribe({channels : ['myChannel1']});
+pubnub.unsubscribe({channels : ['my_channel']});

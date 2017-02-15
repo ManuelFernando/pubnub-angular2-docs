@@ -1,3 +1,3 @@
-this.messages = pubnub.getMessage('myChannel1', function(msg) {
+this.messages = pubnub.getMessage('my_channel', function(msg) {
   console.log(msg);
 });

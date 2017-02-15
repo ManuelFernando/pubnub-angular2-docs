@@ -1,7 +1,7 @@
 // allow user read only access to myChannel1
 
 pubnub.grant({
-  channels: ['myChannel1'],
+  channels: ['my_channel'],
   authKeys: ['my_ro_authkey'],
   ttl: 5,
   read: true,

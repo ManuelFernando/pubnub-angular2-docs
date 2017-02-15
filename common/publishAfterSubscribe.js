@@ -3,7 +3,7 @@ pubnub.addListener({
     if (st.category === "PNConnectedCategory") {
       pubnub.publish({
         message: 'Hello from the PubNub Angular2 SDK!',
-        channel: 'myChannel1'
+        channel: 'my_channel'
       });
     }
   },
@@ -12,4 +12,4 @@ pubnub.addListener({
   }
 });
 
-pubnub.subscribe({channels: ['myChannel1']});
+pubnub.subscribe({channels: ['my_channel']});

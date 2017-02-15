@@ -1,1 +1,1 @@
-pubnub.subscribe({channels: ['myChannel1'], withPresence: true});
+pubnub.subscribe({channels: ['my_channel'], withPresence: true});

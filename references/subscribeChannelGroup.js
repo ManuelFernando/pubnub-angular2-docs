@@ -1,1 +1,1 @@
-pubnub.subscribe({channelGroups: ['myGroup1']});
+pubnub.subscribe({channelGroups: ['my_channelGroup']});

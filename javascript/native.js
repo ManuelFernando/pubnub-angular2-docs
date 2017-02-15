@@ -15,7 +15,7 @@ var anotherInstance = new PubNub(
 defaultInstance.publish(
   {
     message: {such: 'Hello!'},
-    channel: 'myChannel1'
+    channel: 'my_channel'
   },
   function (status, response) {
     if (status.error) {
@@ -28,8 +28,8 @@ defaultInstance.publish(
 
 anotherInstance.grant(
   {
-    channels: ['myChannel1'],
-    authKeys: ['myAuthkey'],
+    channels: ['my_channel'],
+    authKeys: ['my_authkey'],
     read: true,
     write: false
   },

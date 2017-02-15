@@ -1,6 +1,6 @@
 pubnub.channelGroups.addChannels({
-  channels: ['myChannel1', 'myChannel1'],
-  channelGroup: "myGroup1"
+  channels: ['my_channel1', 'my_channel2'],
+  channelGroup: "my_channelGroup"
 },
 function(status) {
   if (status.error) {

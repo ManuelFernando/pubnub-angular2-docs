@@ -1,11 +1,11 @@
 pubnub.subscribe({
-  channels: ['myChannel1'],
+  channels: ['my_channel'],
   triggerEvents: true,
   withPresence: true,
   autoload: 100
 });
 
-var messages = pubnub.getMessage('myChannel1', function(message){
+var messages = pubnub.getMessage('my_channel', function(message){
   if (!message) {
     // The history has been loaded.
     console.log(messages);

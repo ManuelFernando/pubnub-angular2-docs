@@ -1,7 +1,7 @@
 // grant world read/write to myChannel1
 
 pubnub.grant({
-  channels: ['myChannel1'],
+  channels: ['my_channel'],
   read: true,
   write: true
 },

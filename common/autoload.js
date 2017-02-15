@@ -1,8 +1,8 @@
 pubnub.subscribe({
-  channels: ['myChannel1'],
+  channels: ['my_channel'],
   triggerEvents: true,
   withPresence: true,
   autoload: 100
 });
 
-var messages = pubnub.getMessage('myChannel1');
+var messages = pubnub.getMessage('my_channel');

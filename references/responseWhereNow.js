@@ -7,5 +7,5 @@
 
 // Example of Response
 {
-  channels: ["myChannel1"]
+  channels: ["my_channel"]
 }

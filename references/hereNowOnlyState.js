@@ -1,5 +1,5 @@
 pubnub.hereNow({
-  channels : ['myChannel1'],
+  channels : ['my_channel'],
   includeState: true
 },
 function (status, response) {

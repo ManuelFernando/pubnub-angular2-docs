@@ -11,7 +11,7 @@ export class AppComponent {
   pubnub: PubNubAngular;
   channel: string;
   constructor(pubnub: PubNubAngular) {
-    this.channel = 'myChannel1';
+    this.channel = 'my_channel';
     this.pubnub = pubnub;
     this.pubnub.init({publishKey: 'YOUR PUB_KEY', subscribeKey: 'YOUR SUB_KEY'});
     this.pubnub.subscribe({channels: [this.channel], triggerEvents: ['message']});

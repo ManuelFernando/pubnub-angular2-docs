@@ -23,7 +23,7 @@
           state: {age: 24},
           uuid: "User 594"
         }],
-      name: "myChannel1",
+      name: "my_channel",
       occupancy: 3
     }
   }

@@ -1,5 +1,5 @@
 pubnub.subscribe({
-  channels: ['myChannel1'],
+  channels: ['my_channel'],
   triggerEvents: true,
   withPresence: true,
   autoload: 100

@@ -1,5 +1,5 @@
 pubnub.grant({
-  channels: ['myChannel1'],
+  channels: ['my_channel'],
   authKeys: ['my_rw_authkey'],
   read: true,
   write: true,

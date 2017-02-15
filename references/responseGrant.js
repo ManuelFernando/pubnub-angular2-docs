@@ -11,7 +11,7 @@
     },
     "subscribe_key" : "my_subkey",
     "level" : "user",
-    "channel" : "myChannel1"
+    "channel" : "my_channel"
   },
   "service" : "Access Manager"
 }

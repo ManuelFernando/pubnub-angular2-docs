@@ -1,3 +1,3 @@
-var myStack1 = pubnub.getMessage('myChannel1', function(msg) {
+var myStack1 = pubnub.getMessage('my_channel', function(msg) {
     console.log(msg);
 });

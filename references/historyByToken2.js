@@ -1,6 +1,6 @@
 // return 100 messages ending on timetoken
 pubnub.history({
-  channel: 'myChannel1',
+  channel: 'my_channel',
   stringifiedTimeToken: true,
   end: '13406746780720711'
 },

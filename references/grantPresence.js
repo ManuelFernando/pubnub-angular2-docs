@@ -1,7 +1,7 @@
 // Allow world read / write access to myChannel1-pnpres
 
 pubnub.grant({
-  channels: ['myChannel1-pnpres'],
+  channels: ['my_channel-pnpres'],
   ttl: 5,
   read: true,
   write: true

@@ -1,12 +1,12 @@
-pubnub.getMessage('myChannel1', function (msg) {
+pubnub.getMessage('my_channel1', function (msg) {
     console.log(msg);
 });
 
-pubnub.getMessage('myGroup1', function (msg) {
+pubnub.getMessage('my_channelGroup', function (msg) {
     console.log(msg);
 });
 
-pubnub.getMessage(['myChannel1', 'myChannel2', 'myGroup1'], function(msg) {
+pubnub.getMessage(['my_channel1', 'my_channel2', 'my_channelGroup'], function(msg) {
     console.log(msg.message);
     console.log(msg.channel);
 });

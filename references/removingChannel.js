@@ -1,6 +1,6 @@
 pubnub.channelGroups.removeChannels({
-  channels: ["myChannel2"],
-  channelGroup: "myGroup1"
+  channels: ["my_channel2"],
+  channelGroup: "my_channelGroup"
 },
 function (status) {
   if (status.error) {

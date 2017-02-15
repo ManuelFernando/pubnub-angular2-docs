@@ -1,6 +1,6 @@
 // assuming an intialized Pubnub instance already exists
 pubnub.channelGroups.listChannels({
-  channelGroup: "myGroup1"
+  channelGroup: "my_channelGroup"
 },
 function (status, response) {
   if (status.error) {

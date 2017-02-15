@@ -15,4 +15,4 @@ pubnub.addListener({
   }
 });
 
-pubnub.subscribe({channels: ['myChannel1']});
+pubnub.subscribe({channels: ['my_channel']});

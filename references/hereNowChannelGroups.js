@@ -1,5 +1,5 @@
 pubnub.hereNow({
-  channelGroups : ["myGroup1"]
+  channelGroups : ["my_channelGroup"]
 },
 function (status, response) {
   // handle status, response
