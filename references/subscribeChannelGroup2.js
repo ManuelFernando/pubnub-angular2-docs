@@ -1,0 +1,3 @@
+pubnub.subscribe({
+  channelGroups: ['family']
+});
