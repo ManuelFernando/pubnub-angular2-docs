@@ -1,0 +1,1 @@
+http://pubsub.pubnub.com/v1/push/sub-key/<SUB_KEY>/devices/<REG_ID>?<OPERATION>=<CHANNEL_LIST>&type=<TYPE>

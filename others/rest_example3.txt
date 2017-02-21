@@ -1,0 +1,1 @@
+http://pubsub.pubnub.com/v1/push/sub-key/demo/devices/ALICE?type=gcm | apns | mpns
