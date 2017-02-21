@@ -1,0 +1,3 @@
+# For Production Certs
+openssl s_client -connect gateway.push.apple.com:2195
+    -cert my_cert.pem -key my_cert.pem

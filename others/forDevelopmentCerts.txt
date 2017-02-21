@@ -1,0 +1,4 @@
+# For Development Certs
+openssl s_client -connect
+    gateway.sandbox.push.apple.com:2195 -cert
+    my_cert.pem -key my_cert.pem
