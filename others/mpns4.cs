@@ -1,0 +1,1 @@
+microsoftPushChannel.BindToShellTile(pubnub.PushRemoteImageDomainUri);
