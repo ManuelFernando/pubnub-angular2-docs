@@ -1,5 +1,5 @@
 pubnub.push.addChannels({
-  channels: ['my_channel'],
+  channels: ['my_chat'],
   device: 'A655FBA9931AB',
   pushGateway: 'apns' // apns, gcm, mpns
 },
