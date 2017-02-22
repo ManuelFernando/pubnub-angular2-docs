@@ -1,0 +1,13 @@
+{
+  "pn_gcm": {
+    "data": {
+      "message": "hello"
+    }
+  },
+  "pn_apns": {
+    "aps": {
+      "alert": "hello"
+    }
+  },
+  "pn_debug": true
+}

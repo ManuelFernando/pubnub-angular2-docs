@@ -1,0 +1,4 @@
+curl --header "Authorization: key=<API_KEY>" \
+     --header Content-Type:"application/json" \ 
+    https://gcm-http.googleapis.com/gcm/send \ 
+    -d "{\"registration_ids\":[\"ABC\"]}"

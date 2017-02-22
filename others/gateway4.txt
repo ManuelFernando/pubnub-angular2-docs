@@ -1,0 +1,1 @@
+Devices found for push notification apns: 2 gcm: 3 mpns: 0

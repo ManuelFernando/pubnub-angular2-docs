@@ -1,0 +1,4 @@
+gcm Error: InvalidRegistration Devices: null
+gcm WARNING error: NotRegistered, sub_key: sub-c-..., channel: my_channel, reg_id: APA91bHRRxfHHB_T0AVojoJx..., timetoken: 14567269547473296
+apns INFO Certificate for sub-c-... valid (expiration: Sep 14 08:58:26 2016 GMT)
+apns ERROR Error on APNS send for subkey sub-c-... / channel gone_fishing / device 2a0a6234ffdb85df6624cf0546...: invalid token
