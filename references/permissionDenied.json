@@ -1,0 +1,6 @@
+{
+  "message" : "Forbidden",
+  "payload" : {
+    "channels" : ["pam"]
+  }
+}
