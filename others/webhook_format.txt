@@ -1,0 +1,9 @@
+HTTP POST
+Content­Type: application/json
+{
+  "sub_key" : <sub­key>,
+  "action" : <action contains extra details about how the device was removed ­ see events section>
+  "device" : <device token>,
+  "platform" : "apns|gcm|mpns",
+  "timestamp" : <unix timestamp (utc) when the device was removed>
+}
