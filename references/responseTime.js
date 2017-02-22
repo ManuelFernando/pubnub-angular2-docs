@@ -1,0 +1,3 @@
+type TimeResponse = {
+    timetoken: number
+};
